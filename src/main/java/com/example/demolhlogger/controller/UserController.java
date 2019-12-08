@@ -35,7 +35,6 @@ public class UserController {
         log.info("UserController key1:{}",key1);
         log.info("UserController key2:{}",key2);
         log.info("UserController sysUser:{}",sysUser);
-        int i = 1/0;
         userList.add(sysUser);
         return ResponseEntity.ok("添加成功");
     }
